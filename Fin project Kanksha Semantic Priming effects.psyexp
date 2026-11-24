@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'data/' + expInfo['participant'] + '_' + expName + '_' + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="Fin project Kanksha" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.1,0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="PrimeText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="PrimeText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Prime" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="word1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="word1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.35, 0.20)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Word1" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="word2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="word2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.20)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Word2" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="word3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="word3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.35, 0.20)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Word3" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="word4" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="word4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.35, -0.20)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Word4" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="word5" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="word5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.20)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Word5" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="word6" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="word6" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.35, -0.20)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Word6" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="response" plugin="None">
+        <Param val="'y','n'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$CorrectAns" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="response" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instruction">
+      <RoutineSettingsComponent name="Instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruction_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="VISUAL SEARCH TASK&amp;#10;You will first see a word, followed by an array of six words.&amp;#10;Your task is to determine whether at least one FRUIT is present in the six-word array.&amp;#10;- Press Y if a fruit is present.&amp;#10;- Press N if no fruit is present.&amp;#10;Ignore the first word when making your decision.&amp;#10;Respond as quickly and accurately as possible.&amp;#10;First few trials are practise, you will be informed before main trials begin. &amp;#10;Press SPACE to begin.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="instruction_key" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instruction_key" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Start">
+      <RoutineSettingsComponent name="Start" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Start" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="start" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="start" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="PRACTICE SESSION COMPLETED&amp;#10;&amp;#10;Now main trials shall begin&amp;#10;&amp;#10;Look for a FRUIT among six words displayed&amp;#10;- Press Y if a fruit is present.&amp;#10;- Press N if no fruit is present.&amp;#10;Ignore the first word prime when making your decision.&amp;#10;Respond as quickly and accurately as possible.&amp;#10;&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="instruction_key_" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instruction_key_" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Thank_you_">
+      <RoutineSettingsComponent name="Thank_you_" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Thank_you_" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Thank_you" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Thank_you" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="EXPERIMENT COMPLETED&amp;#10;&amp;#10;THANK YOU FOR YOUR PARTICIPANTION&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="Prac">
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+      <Param name="conditions" updates="None" val="[{'Trial': 1, 'Prime': 'HELMET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'CHERRY', 'Word1': 'HOSE', 'Word2': 'COAT', 'Word3': 'CHERRY', 'Word4': 'PLIERS', 'Word5': 'STAIRS', 'Word6': 'KEY', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 2, 'Prime': 'SCISSORS', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PLANE', 'Word2': 'BRUSHES', 'Word3': 'CRAYON', 'Word4': 'FLOWER', 'Word5': 'CURTAIN', 'Word6': 'BRICK', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 3, 'Prime': 'BRACELET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'ERASER', 'Word2': 'FILE', 'Word3': 'TRAIN', 'Word4': 'FAN', 'Word5': 'RACKET', 'Word6': 'BENCH', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 4, 'Prime': 'KIWI', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'MANGO', 'Word1': 'MANGO', 'Word2': 'PENCILCASE', 'Word3': 'SCREEN', 'Word4': 'BAG', 'Word5': 'JAR', 'Word6': 'CARD', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 5, 'Prime': 'ELDERBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'CLOUD', 'Word2': 'WRENCH', 'Word3': 'PHONE', 'Word4': 'BRUSHES', 'Word5': 'NAIL', 'Word6': 'SHOVEL', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 6, 'Prime': 'PLUM', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'PEAR', 'Word1': 'PEAR', 'Word2': 'PLANE', 'Word3': 'PIN', 'Word4': 'STAPLER', 'Word5': 'PLANT', 'Word6': 'BALL', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 7, 'Prime': 'TELEPHONE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'GRAPE', 'Word1': 'FENCE', 'Word2': 'GLOVE', 'Word3': 'TISSUEBOX', 'Word4': 'ROOF', 'Word5': 'MUG', 'Word6': 'GRAPE', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 8, 'Prime': 'MELON', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'PEACH', 'Word1': 'MARKER', 'Word2': 'POT', 'Word3': 'PEACH', 'Word4': 'PAN', 'Word5': 'RADIO', 'Word6': 'BIKE', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 9, 'Prime': 'KEYBOARD', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'PAPAYA', 'Word1': 'LAMP', 'Word2': 'PAPAYA', 'Word3': 'TISSUE', 'Word4': 'BOX', 'Word5': 'TABLE', 'Word6': 'COIN', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 10, 'Prime': 'GUITAR', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'MELON', 'Word1': 'HOSE', 'Word2': 'DETERGENT', 'Word3': 'RING', 'Word4': 'MELON', 'Word5': 'RADIO', 'Word6': 'BELL', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 11, 'Prime': 'WHISTLE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PAN', 'Word2': 'BRIDGE', 'Word3': 'PILLOWCASE', 'Word4': 'RIVER', 'Word5': 'TISSUEBOX', 'Word6': 'FOLDER', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 12, 'Prime': 'QUINCE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'APPLE', 'Word1': 'KEY', 'Word2': 'FENCE', 'Word3': 'SCARF', 'Word4': 'APPLE', 'Word5': 'BRUSH', 'Word6': 'MIRRORFRAME', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 13, 'Prime': 'WATERMELON', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'WALLET', 'Word2': 'TAPE', 'Word3': 'PAPER', 'Word4': 'TRAIN', 'Word5': 'DICE', 'Word6': 'SOAP', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 14, 'Prime': 'BATTERY', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'GRASS', 'Word2': 'MOUSE', 'Word3': 'BOWL', 'Word4': 'PRINTER', 'Word5': 'RIVER', 'Word6': 'STONE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 15, 'Prime': 'PEAR', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'SOAPDISH', 'Word2': 'CUP', 'Word3': 'PAINT', 'Word4': 'MUG', 'Word5': 'STOOL', 'Word6': 'RACKET', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 16, 'Prime': 'PERSIMMON', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'CARD', 'Word2': 'BRIDGE', 'Word3': 'ROPE', 'Word4': 'TREE', 'Word5': 'DOOR', 'Word6': 'KEY', 'TargetPosition': None, 'CorrectAns': 'n'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="C:/Users/DELL/Downloads/Semantic_Priming_Practice_16.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="Prac" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="Prac"/>
+    <Routine name="Start"/>
+    <LoopInitiator loopType="TrialHandler" name="main">
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+      <Param name="conditions" updates="None" val="[{'Trial': 1, 'Prime': 'SOURSOP', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PLIERS', 'Word2': 'SAW', 'Word3': 'BOOK', 'Word4': 'BRUSH', 'Word5': 'BOTTLECAP', 'Word6': 'PLANT', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 2, 'Prime': 'THERMOS', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'POMELO', 'Word1': 'TOKEN', 'Word2': 'POMELO', 'Word3': 'LAMP', 'Word4': 'CARD', 'Word5': 'CARTON', 'Word6': 'TOWEL', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 3, 'Prime': 'LEMON', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'RAKE', 'Word2': 'CAN', 'Word3': 'WINDOWSILL', 'Word4': 'BAGEL', 'Word5': 'SHIRT', 'Word6': 'SPOON', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 4, 'Prime': 'LANTERN', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MARKER', 'Word2': 'HAT', 'Word3': 'BOTTLECAP', 'Word4': 'COAT', 'Word5': 'CARTON', 'Word6': 'GRASS', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 5, 'Prime': 'BLUEBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'BANANA', 'Word1': 'PHONE', 'Word2': 'BANANA', 'Word3': 'SCREW', 'Word4': 'DOCK', 'Word5': 'RULER', 'Word6': 'TRAIN', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 6, 'Prime': 'AVOCADO', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'BOTTLECAP', 'Word2': 'GATE', 'Word3': 'ROOF', 'Word4': 'LAMP', 'Word5': 'SINK', 'Word6': 'GRASS', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 7, 'Prime': 'SANDWICH', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'HOOK', 'Word2': 'CURTAIN', 'Word3': 'PAINT', 'Word4': 'SOAP', 'Word5': 'PLANE', 'Word6': 'TREE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 8, 'Prime': 'TOASTER', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'QUINCE', 'Word1': 'BOX', 'Word2': 'PIN', 'Word3': 'CHAIN', 'Word4': 'DOCK', 'Word5': 'ROPE', 'Word6': 'QUINCE', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 9, 'Prime': 'CARPET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'PINEAPPLE', 'Word1': 'BOAT', 'Word2': 'RACKET', 'Word3': 'COMB', 'Word4': 'PLANT', 'Word5': 'BRUSHES', 'Word6': 'PINEAPPLE', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 10, 'Prime': 'KUMQUAT', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PUZZLE', 'Word2': 'COMB', 'Word3': 'BAGEL', 'Word4': 'DOOR', 'Word5': 'TISSUEBOX', 'Word6': 'STOOL', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 11, 'Prime': 'WHISTLE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'TANGERINE', 'Word1': 'DETERGENT', 'Word2': 'NAIL', 'Word3': 'BASKETBALL', 'Word4': 'TANGERINE', 'Word5': 'SCARF', 'Word6': 'BAGEL', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 12, 'Prime': 'TICKET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'RULER', 'Word2': 'BROOM', 'Word3': 'WRENCH', 'Word4': 'BOWL', 'Word5': 'POT', 'Word6': 'SCREW', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 13, 'Prime': 'NECKLACE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'GRAPE', 'Word1': 'CUP', 'Word2': 'TAPE', 'Word3': 'PLATE', 'Word4': 'BAGEL', 'Word5': 'SCREW', 'Word6': 'GRAPE', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 14, 'Prime': 'APPLE', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'CLOCK', 'Word2': 'SPONGE', 'Word3': 'BEACH', 'Word4': 'JAR', 'Word5': 'DOLL', 'Word6': 'SCREEN', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 15, 'Prime': 'SCISSORS', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'POMEGRANATE', 'Word1': 'WRENCH', 'Word2': 'PIN', 'Word3': 'POMEGRANATE', 'Word4': 'PLATE', 'Word5': 'BALL', 'Word6': 'RADIO', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 16, 'Prime': 'CABINET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PHONE', 'Word2': 'DICE', 'Word3': 'SCREW', 'Word4': 'CLOUD', 'Word5': 'COIN', 'Word6': 'GATE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 17, 'Prime': 'PAPAYA', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'AVOCADO', 'Word1': 'RING', 'Word2': 'AVOCADO', 'Word3': 'TAPE', 'Word4': 'SHELL', 'Word5': 'PAPER', 'Word6': 'BAGEL', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 18, 'Prime': 'CHERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'DATE', 'Word1': 'SHOVEL', 'Word2': 'CUP', 'Word3': 'TAPE', 'Word4': 'DETERGENT', 'Word5': 'SCREW', 'Word6': 'DATE', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 19, 'Prime': 'WINDOW', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'TOOTHPASTE', 'Word2': 'STOOL', 'Word3': 'GLASS', 'Word4': 'MOUNTAIN', 'Word5': 'WALL', 'Word6': 'HANGER', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 20, 'Prime': 'MULBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'COCONUT', 'Word1': 'GLASS', 'Word2': 'GATE', 'Word3': 'DRILL', 'Word4': 'HAT', 'Word5': 'CLOUD', 'Word6': 'COCONUT', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 21, 'Prime': 'PEACH', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'BALL', 'Word2': 'PENCILCASE', 'Word3': 'RULER', 'Word4': 'TOWEL', 'Word5': 'CRAYON', 'Word6': 'BAG', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 22, 'Prime': 'HELMET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MIRRORFRAME', 'Word2': 'DRILL', 'Word3': 'SHIRT', 'Word4': 'COAT', 'Word5': 'DICE', 'Word6': 'GAME', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 23, 'Prime': 'PASSIONFRUIT', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'PEACH', 'Word1': 'BRUSH', 'Word2': 'DOLL', 'Word3': 'CRAYON', 'Word4': 'PUZZLE', 'Word5': 'PEACH', 'Word6': 'JAR', 'TargetPosition': 5, 'CorrectAns': 'y'}, {'Trial': 24, 'Prime': 'FIG', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'LIME', 'Word1': 'CARD', 'Word2': 'CAN', 'Word3': 'LIME', 'Word4': 'BRUSHES', 'Word5': 'PLANT', 'Word6': 'STONE', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 25, 'Prime': 'RASPBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'CHERRY', 'Word1': 'RADIO', 'Word2': 'GAME', 'Word3': 'CHERRY', 'Word4': 'DRUM', 'Word5': 'GRASS', 'Word6': 'ERASER', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 26, 'Prime': 'STARFRUIT', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'ROOF', 'Word2': 'WALLET', 'Word3': 'MOUNTAIN', 'Word4': 'BRICK', 'Word5': 'TOOTHPASTE', 'Word6': 'BALL', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 27, 'Prime': 'BUCKET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'DRUM', 'Word2': 'MAT', 'Word3': 'CAN', 'Word4': 'BENCH', 'Word5': 'PILLOWCASE', 'Word6': 'VASE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 28, 'Prime': 'LYCHEE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'GRAPE', 'Word1': 'FLUTE', 'Word2': 'RULER', 'Word3': 'SHELF', 'Word4': 'SOCK', 'Word5': 'GRAPE', 'Word6': 'STOOL', 'TargetPosition': 5, 'CorrectAns': 'y'}, {'Trial': 29, 'Prime': 'GRAPEFRUIT', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'GUAVA', 'Word1': 'IRON', 'Word2': 'FORK', 'Word3': 'BRUSH', 'Word4': 'GUAVA', 'Word5': 'GLASS', 'Word6': 'SCREEN', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 30, 'Prime': 'NECTARINE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'KIWI', 'Word1': 'DRUM', 'Word2': 'TABLE', 'Word3': 'GLASS', 'Word4': 'TISSUEBOX', 'Word5': 'KIWI', 'Word6': 'WRENCH', 'TargetPosition': 5, 'CorrectAns': 'y'}, {'Trial': 31, 'Prime': 'APRICOT', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MARKER', 'Word2': 'HOSE', 'Word3': 'BOOK', 'Word4': 'MOP', 'Word5': 'SHELF', 'Word6': 'TISSUEBOX', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 32, 'Prime': 'UMBRELLA', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'DOOR', 'Word2': 'PUZZLE', 'Word3': 'BOTTLECAP', 'Word4': 'COMB', 'Word5': 'PENCILCASE', 'Word6': 'CUP', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 33, 'Prime': 'COMPASS', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'SHELF', 'Word2': 'CLOCK', 'Word3': 'GRASS', 'Word4': 'TISSUEBOX', 'Word5': 'FLUTE', 'Word6': 'PHONE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 34, 'Prime': 'HEADPHONE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'TOOTHPASTE', 'Word2': 'PAINT', 'Word3': 'RING', 'Word4': 'RADIO', 'Word5': 'PRINTER', 'Word6': 'FLUTE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 35, 'Prime': 'GUAVA', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'GAME', 'Word2': 'RAKE', 'Word3': 'COIN', 'Word4': 'PLIERS', 'Word5': 'TRAIN', 'Word6': 'FILE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 36, 'Prime': 'NAPKIN', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'AVOCADO', 'Word1': 'TOOTHPASTE', 'Word2': 'FAN', 'Word3': 'AVOCADO', 'Word4': 'CURTAIN', 'Word5': 'CAN', 'Word6': 'WRENCH', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 37, 'Prime': 'QUINCE', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'DRILL', 'Word2': 'BAG', 'Word3': 'SCARF', 'Word4': 'BOOK', 'Word5': 'COIN', 'Word6': 'FENCE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 38, 'Prime': 'GRAPE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'COCONUT', 'Word1': 'COCONUT', 'Word2': 'DOOR', 'Word3': 'NAIL', 'Word4': 'BALL', 'Word5': 'RIVER', 'Word6': 'WALL', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 39, 'Prime': 'BASKET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'NECTARINE', 'Word1': 'HANGER', 'Word2': 'NECTARINE', 'Word3': 'FLUTE', 'Word4': 'TRUCK', 'Word5': 'SCREEN', 'Word6': 'BOX', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 40, 'Prime': 'DOORMAT', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'DATE', 'Word1': 'DOOR', 'Word2': 'SCARF', 'Word3': 'DRUM', 'Word4': 'DATE', 'Word5': 'CLOUD', 'Word6': 'MOP', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 41, 'Prime': 'CANDLE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'RASPBERRY', 'Word1': 'WRENCH', 'Word2': 'BOAT', 'Word3': 'RASPBERRY', 'Word4': 'LAMP', 'Word5': 'WINDOWSILL', 'Word6': 'STAIRS', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 42, 'Prime': 'PAINTING', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'FIG', 'Word1': 'IRON', 'Word2': 'GRASS', 'Word3': 'FIG', 'Word4': 'STONE', 'Word5': 'MOUNTAIN', 'Word6': 'RULER', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 43, 'Prime': 'BRACELET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'WRENCH', 'Word2': 'CURTAIN', 'Word3': 'RIVER', 'Word4': 'CARTON', 'Word5': 'BRICK', 'Word6': 'CRAYON', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 44, 'Prime': 'PENCIL', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'CRANBERRY', 'Word1': 'CUP', 'Word2': 'TOWEL', 'Word3': 'BRICK', 'Word4': 'CRANBERRY', 'Word5': 'PRINTER', 'Word6': 'RULER', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 45, 'Prime': 'OLIVE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'BERRY', 'Word1': 'FORK', 'Word2': 'SPONGE', 'Word3': 'RADIO', 'Word4': 'BERRY', 'Word5': 'SINK', 'Word6': 'MAT', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 46, 'Prime': 'PINEAPPLE', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'TISSUE', 'Word2': 'SHOE', 'Word3': 'MAT', 'Word4': 'SHOVEL', 'Word5': 'MIRRORFRAME', 'Word6': 'CARTON', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 47, 'Prime': 'DATE', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'TOWEL', 'Word2': 'CLOUD', 'Word3': 'FENCE', 'Word4': 'VASE', 'Word5': 'PAINT', 'Word6': 'DOOR', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 48, 'Prime': 'BLANKET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'BERRY', 'Word1': 'PLIERS', 'Word2': 'PLANT', 'Word3': 'MAT', 'Word4': 'BERRY', 'Word5': 'SAW', 'Word6': 'DICE', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 49, 'Prime': 'MATTRESS', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PUZZLE', 'Word2': 'DOLL', 'Word3': 'PENCILCASE', 'Word4': 'STAPLER', 'Word5': 'MOUNTAIN', 'Word6': 'SPOON', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 50, 'Prime': 'WATERMELON', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'TOKEN', 'Word2': 'PENCILCASE', 'Word3': 'BOTTLECAP', 'Word4': 'MOUNTAIN', 'Word5': 'COMB', 'Word6': 'TOOTHBRUSH', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 51, 'Prime': 'HAMMER', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'ORANGE', 'Word1': 'PLANT', 'Word2': 'LAMP', 'Word3': 'CLOCK', 'Word4': 'BELL', 'Word5': 'DESK', 'Word6': 'ORANGE', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 52, 'Prime': 'ELDERBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'PLUM', 'Word1': 'VASE', 'Word2': 'WRENCH', 'Word3': 'RIVER', 'Word4': 'BOOT', 'Word5': 'PUZZLE', 'Word6': 'PLUM', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 53, 'Prime': 'BLACKBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'ROOF', 'Word2': 'PENCILCASE', 'Word3': 'BOOK', 'Word4': 'SPONGE', 'Word5': 'DESK', 'Word6': 'BEACH', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 54, 'Prime': 'PLATFORM', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'BOTTLECAP', 'Word2': 'TOOTHPASTE', 'Word3': 'SCARF', 'Word4': 'PAINT', 'Word5': 'HANGER', 'Word6': 'BROOM', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 55, 'Prime': 'GOOSEBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'LEMON', 'Word1': 'PAINT', 'Word2': 'BRICK', 'Word3': 'GRASS', 'Word4': 'LEMON', 'Word5': 'CLOUD', 'Word6': 'RAKE', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 56, 'Prime': 'MANGO', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'TANGERINE', 'Word1': 'RAKE', 'Word2': 'TANGERINE', 'Word3': 'GATE', 'Word4': 'PAINT', 'Word5': 'TREE', 'Word6': 'GLASS', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 57, 'Prime': 'KEYBOARD', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'DOCK', 'Word2': 'RADIO', 'Word3': 'SAW', 'Word4': 'CLOCK', 'Word5': 'SPONGE', 'Word6': 'STONE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 58, 'Prime': 'NOTEBOOK', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MOP', 'Word2': 'SINK', 'Word3': 'BEACH', 'Word4': 'FOLDER', 'Word5': 'PLANT', 'Word6': 'TOOTHPASTE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 59, 'Prime': 'RIBBON', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'MELON', 'Word1': 'MELON', 'Word2': 'TRUCK', 'Word3': 'CHAIR', 'Word4': 'FAN', 'Word5': 'MARKER', 'Word6': 'KEY', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 60, 'Prime': 'BATTERY', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MOP', 'Word2': 'GAME', 'Word3': 'TABLE', 'Word4': 'RADIO', 'Word5': 'PLANE', 'Word6': 'DRILL', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 61, 'Prime': 'BACKPACK', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'CHERRY', 'Word1': 'BOTTLECAP', 'Word2': 'FLUTE', 'Word3': 'BEACH', 'Word4': 'DESK', 'Word5': 'TOWEL', 'Word6': 'CHERRY', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 62, 'Prime': 'MANDARIN', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'MANGO', 'Word1': 'FRAME', 'Word2': 'MANGO', 'Word3': 'BELL', 'Word4': 'STAPLER', 'Word5': 'SINK', 'Word6': 'GRASS', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 63, 'Prime': 'CANTALOUPE', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MUG', 'Word2': 'FLUTE', 'Word3': 'FENCE', 'Word4': 'ROOF', 'Word5': 'COIN', 'Word6': 'RING', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 64, 'Prime': 'MIRROR', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'BLUEBERRY', 'Word1': 'SHIRT', 'Word2': 'BLUEBERRY', 'Word3': 'CHAIR', 'Word4': 'DETERGENT', 'Word5': 'FILE', 'Word6': 'SHOE', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 65, 'Prime': 'POMEGRANATE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'APPLE', 'Word1': 'CURTAIN', 'Word2': 'TRAIN', 'Word3': 'DICE', 'Word4': 'APPLE', 'Word5': 'CLOUD', 'Word6': 'SHELL', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 66, 'Prime': 'BERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'QUINCE', 'Word1': 'PHONE', 'Word2': 'RING', 'Word3': 'TAPE', 'Word4': 'SHOVEL', 'Word5': 'CURTAIN', 'Word6': 'QUINCE', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 67, 'Prime': 'LADDER', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PLIERS', 'Word2': 'SHELF', 'Word3': 'TOY', 'Word4': 'BOTTLECAP', 'Word5': 'SAW', 'Word6': 'COAT', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 68, 'Prime': 'CRANBERRY', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'COIN', 'Word2': 'STOOL', 'Word3': 'TABLE', 'Word4': 'BIKE', 'Word5': 'SAW', 'Word6': 'CRAYON', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 69, 'Prime': 'PEAR', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'PEACH', 'Word1': 'DOCK', 'Word2': 'FLUTE', 'Word3': 'BOTTLECAP', 'Word4': 'PEACH', 'Word5': 'STAPLER', 'Word6': 'HOSE', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 70, 'Prime': 'DRAGONFRUIT', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'PAPAYA', 'Word1': 'SPOON', 'Word2': 'PIN', 'Word3': 'TAPE', 'Word4': 'PAPAYA', 'Word5': 'CUP', 'Word6': 'TOOTHBRUSH', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 71, 'Prime': 'PILLOW', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'APRICOT', 'Word1': 'DETERGENT', 'Word2': 'DRUM', 'Word3': 'PAINT', 'Word4': 'FLOWER', 'Word5': 'SINK', 'Word6': 'APRICOT', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 72, 'Prime': 'SUITCASE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'GUAVA', 'Word1': 'GUAVA', 'Word2': 'FRAME', 'Word3': 'RADIO', 'Word4': 'CHAIN', 'Word5': 'BOOT', 'Word6': 'SPONGE', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 73, 'Prime': 'JACKFRUIT', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'LIME', 'Word1': 'ROOF', 'Word2': 'VASE', 'Word3': 'GATE', 'Word4': 'DETERGENT', 'Word5': 'LIME', 'Word6': 'PAN', 'TargetPosition': 5, 'CorrectAns': 'y'}, {'Trial': 74, 'Prime': 'PLANTAIN', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'AVOCADO', 'Word1': 'AVOCADO', 'Word2': 'PLATE', 'Word3': 'STONE', 'Word4': 'MIRRORFRAME', 'Word5': 'SPOON', 'Word6': 'SHOWER', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 75, 'Prime': 'COCONUT', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'TRAIN', 'Word2': 'CAN', 'Word3': 'KEY', 'Word4': 'TISSUEBOX', 'Word5': 'ERASER', 'Word6': 'SPONGE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 76, 'Prime': 'ORANGE', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'HANGER', 'Word2': 'BALL', 'Word3': 'BRICK', 'Word4': 'ROOF', 'Word5': 'PAINT', 'Word6': 'SAW', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 77, 'Prime': 'CUSHION', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'JAR', 'Word2': 'SOAPDISH', 'Word3': 'BIKE', 'Word4': 'PLANE', 'Word5': 'DOCK', 'Word6': 'SPOON', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 78, 'Prime': 'CUSTARDAPPLE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'TANGERINE', 'Word1': 'JAR', 'Word2': 'TANGERINE', 'Word3': 'PRINTER', 'Word4': 'ROPE', 'Word5': 'IRON', 'Word6': 'TOY', 'TargetPosition': 2, 'CorrectAns': 'y'}, {'Trial': 79, 'Prime': 'KIWI', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'SCARF', 'Word2': 'FILE', 'Word3': 'RIVER', 'Word4': 'MOP', 'Word5': 'CHAIN', 'Word6': 'NAIL', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 80, 'Prime': 'REMOTE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'BANANA', 'Word1': 'DICE', 'Word2': 'BAGEL', 'Word3': 'GRASS', 'Word4': 'ERASER', 'Word5': 'MUG', 'Word6': 'BANANA', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 81, 'Prime': 'POMELO', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MOUSE', 'Word2': 'TOOTHBRUSH', 'Word3': 'SHELL', 'Word4': 'GLOVE', 'Word5': 'MAT', 'Word6': 'PLATE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 82, 'Prime': 'TELEPHONE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'LYCHEE', 'Word1': 'LYCHEE', 'Word2': 'FILE', 'Word3': 'BOOK', 'Word4': 'BAG', 'Word5': 'BOAT', 'Word6': 'RAKE', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 83, 'Prime': 'POCKET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'DESK', 'Word2': 'DRUM', 'Word3': 'GLASS', 'Word4': 'CHAIR', 'Word5': 'BRUSH', 'Word6': 'GLOVE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 84, 'Prime': 'CUPBOARD', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'COCONUT', 'Word1': 'RING', 'Word2': 'DRUM', 'Word3': 'COCONUT', 'Word4': 'GAME', 'Word5': 'HANGER', 'Word6': 'BOX', 'TargetPosition': 3, 'CorrectAns': 'y'}, {'Trial': 85, 'Prime': 'BANANA', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'MELON', 'Word1': 'TOKEN', 'Word2': 'SCREEN', 'Word3': 'GATE', 'Word4': 'MELON', 'Word5': 'WALLET', 'Word6': 'DRILL', 'TargetPosition': 4, 'CorrectAns': 'y'}, {'Trial': 86, 'Prime': 'TANGERINE', 'PrimeCondition': 'Related', 'TargetPresent': 'Yes', 'TargetWord': 'BANANA', 'Word1': 'BANANA', 'Word2': 'MOUSE', 'Word3': 'BOX', 'Word4': 'DESK', 'Word5': 'BOTTLECAP', 'Word6': 'TOKEN', 'TargetPosition': 1, 'CorrectAns': 'y'}, {'Trial': 87, 'Prime': 'CALENDAR', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'PAPAYA', 'Word1': 'PLATE', 'Word2': 'WALL', 'Word3': 'FRAME', 'Word4': 'RING', 'Word5': 'PAPAYA', 'Word6': 'FORK', 'TargetPosition': 5, 'CorrectAns': 'y'}, {'Trial': 88, 'Prime': 'NEWSPAPER', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'BLACKBERRY', 'Word1': 'STONE', 'Word2': 'BEACH', 'Word3': 'SCARF', 'Word4': 'CHAIR', 'Word5': 'FRAME', 'Word6': 'BLACKBERRY', 'TargetPosition': 6, 'CorrectAns': 'y'}, {'Trial': 89, 'Prime': 'GUITAR', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MARKER', 'Word2': 'BIKE', 'Word3': 'PRINTER', 'Word4': 'DICE', 'Word5': 'DRILL', 'Word6': 'PLANE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 90, 'Prime': 'CAMERA', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'Yes', 'TargetWord': 'LIME', 'Word1': 'WRENCH', 'Word2': 'JAR', 'Word3': 'DESK', 'Word4': 'PRINTER', 'Word5': 'LIME', 'Word6': 'SAW', 'TargetPosition': 5, 'CorrectAns': 'y'}, {'Trial': 91, 'Prime': 'KETTLE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'BAGEL', 'Word2': 'MOUSE', 'Word3': 'ROPE', 'Word4': 'WALLET', 'Word5': 'STONE', 'Word6': 'TREE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 92, 'Prime': 'LIME', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'FILE', 'Word2': 'PLATE', 'Word3': 'WALL', 'Word4': 'SCREEN', 'Word5': 'CAN', 'Word6': 'TABLE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 93, 'Prime': 'ENVELOPE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'PAINT', 'Word2': 'RIVER', 'Word3': 'CHAIN', 'Word4': 'SOAPDISH', 'Word5': 'GATE', 'Word6': 'HOSE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 94, 'Prime': 'PERSIMMON', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'WRENCH', 'Word2': 'STAPLER', 'Word3': 'TRUCK', 'Word4': 'CHAIN', 'Word5': 'CLOCK', 'Word6': 'GAME', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 95, 'Prime': 'BUTTON', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'BASKETBALL', 'Word2': 'BRIDGE', 'Word3': 'WALLET', 'Word4': 'DOLL', 'Word5': 'CLOCK', 'Word6': 'DRILL', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 96, 'Prime': 'PLUM', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'SPONGE', 'Word2': 'CRAYON', 'Word3': 'TAPE', 'Word4': 'TABLE', 'Word5': 'HOOK', 'Word6': 'BOAT', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 97, 'Prime': 'CLEMENTINE', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'BEACH', 'Word2': 'HAT', 'Word3': 'SHOVEL', 'Word4': 'TISSUE', 'Word5': 'FAN', 'Word6': 'RACKET', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 98, 'Prime': 'MELON', 'PrimeCondition': 'Related', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'MOUSE', 'Word2': 'TREE', 'Word3': 'DETERGENT', 'Word4': 'MIRRORFRAME', 'Word5': 'SHOVEL', 'Word6': 'TOOTHPASTE', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 99, 'Prime': 'JACKET', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'DOLL', 'Word2': 'SOCK', 'Word3': 'CLOUD', 'Word4': 'FORK', 'Word5': 'PLIERS', 'Word6': 'STAPLER', 'TargetPosition': None, 'CorrectAns': 'n'}, {'Trial': 100, 'Prime': 'BOTTLE', 'PrimeCondition': 'Unrelated', 'TargetPresent': 'No', 'TargetWord': None, 'Word1': 'RAKE', 'Word2': 'STOOL', 'Word3': 'PRINTER', 'Word4': 'TABLE', 'Word5': 'BROOM', 'Word6': 'SPONGE', 'TargetPosition': None, 'CorrectAns': 'n'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="C:/Users/DELL/Downloads/Semantic_Priming_Main_100.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="main" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="main"/>
+    <Routine name="Thank_you_"/>
+  </Flow>
+</PsychoPy2experiment>
